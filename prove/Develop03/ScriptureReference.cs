@@ -6,8 +6,8 @@ public class ScriptureReference
     {
         Text = referenceText;
     }
-
     public override string ToString()
+    
     {
         return Text;
     }
