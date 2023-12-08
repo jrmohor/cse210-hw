@@ -4,9 +4,8 @@ class UserInterface
     {
         Console.WriteLine("1. Add Product");
         Console.WriteLine("2. Remove Product");
-        Console.WriteLine("3. Update Product");
-        Console.WriteLine("4. List All Products");
-        Console.WriteLine("5. Exit");
+        Console.WriteLine("3. List All Products");
+        Console.WriteLine("4. Exit");
     }
 
     public int GetUserInput()
@@ -17,6 +16,6 @@ class UserInterface
 
     public void DisplayProductDetails(Product product)
     {
-    
+        product.GetDetails();
     }
 }
