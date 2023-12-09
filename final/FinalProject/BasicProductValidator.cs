@@ -5,12 +5,10 @@ class BasicProductValidator : ProductValidator
     {
         return !string.IsNullOrEmpty(name);
     }
-
     public override bool ValidatePrice(decimal price)
     {
         return price >= 0;
     }
-
     public override bool ValidateQuantity(int quantity)
     {
         return quantity >= 0;

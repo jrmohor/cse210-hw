@@ -1,5 +1,5 @@
 using System.IO;
-class FileManager
+class FileManager // FileManager class
 {
     private string filePath = "InventoryData.txt";
 

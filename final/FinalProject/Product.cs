@@ -1,4 +1,4 @@
-class Product
+class Product // Product class
 {
     public int ProductID { get; set; }
     public string Name { get; set; }
@@ -27,7 +27,7 @@ class Product
     {
         writer.WriteLine($"{ProductID},{Name},{Price},{QuantityOnHand},{Category}");
     }
-    
+
     public static Product LoadFromFile(string line)
     {
         string[] data = line.Split(',');

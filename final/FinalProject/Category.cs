@@ -1,4 +1,4 @@
-class Category
+class Category // Category class
 {
     public string GetCategoryDetails()
     {

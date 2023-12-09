@@ -1,4 +1,4 @@
-class InventoryManager
+class InventoryManager // InventoryManager class
 {
     private List<Product> products = new List<Product>();
 

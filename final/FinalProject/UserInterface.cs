@@ -1,4 +1,4 @@
-class UserInterface
+class UserInterface // UserInterface class
 {
     public void DisplayMenu()
     {

@@ -1,5 +1,4 @@
-// DiscountedProduct class (Inheritance)
-class DiscountedProduct : Product
+class DiscountedProduct : Product // DiscountedProduct class (Inheritance)
 {
     public decimal Discount { get; set; }
 

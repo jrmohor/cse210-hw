@@ -1,4 +1,4 @@
-class Logger
+class Logger // Logger class
 {
     public void Log(string message)
     {

@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Sample usage of the Inventory Management System
+        // Sample of the Inventory Management System
         InventoryManager inventoryManager = new InventoryManager();
         UserInterface userInterface = new UserInterface();
         FileManager fileManager = new FileManager();
