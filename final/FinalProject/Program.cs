@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Sample usage of the Inventory Management System
         InventoryManager inventoryManager = new InventoryManager();
         UserInterface userInterface = new UserInterface();
         FileManager fileManager = new FileManager();
@@ -18,16 +19,16 @@ class Program
 
             switch (choice)
             {
-                case 1:
+                case 1: // Add Product
                     AddProduct(inventoryManager);
                     break;
-                case 2:
+                case 2: // Remove Product
                     RemoveProduct(inventoryManager);
                     break;
-                case 3:
+                case 3: // List All Products
                     ListAllProducts(inventoryManager);
                     break;
-                case 4:
+                case 4: //Exit // Save inventory data to a file before exiting
                     fileManager.SaveToFile(inventoryManager.Products);
                     Console.WriteLine("Exiting the program.");
                     Environment.Exit(0);
